@@ -1,0 +1,17 @@
+#UnderHeaderContainer{
+text-align:center;
+}
+#MainBarContainer{
+border-spacing:10px;
+width:78%;
+}
+#MainBarRowContainer{
+}
+.PhotoBarContainer{
+display:table-cell;
+border:2px solid black;
+vertical-align:top;
+}
+div.PhotoBarContainer img{
+height:180px;
+}

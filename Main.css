@@ -1,0 +1,83 @@
+#BodyContainer{
+background-image:url(Images/Fone1.jpg);
+background-attachment:fixed;
+}
+#UpButton{
+background-color:silver;
+opacity:0.7;
+padding-top:0.1%; padding-bottom:0.1%; padding-left:0.5%; padding-right:0.5%;
+position:fixed;
+right:5px; bottom:5px;
+color:#f5f5f5;
+border-radius:5px;
+}
+#UpButton:link{
+background-color:silver;
+}
+#UpButton:hover{
+background-color:gray;
+}
+#UpButton:active{
+background-color:#696969;
+}
+#HeaderContainer{
+text-align:center;
+font-style:serif;
+border-left:2px solid gray; border-right:2px solid gray; border-bottom:2px solid gray;
+margin-top:-10px; margin-left:0.1%; margin-right:0.01%;
+padding-top:5px; padding-bottom:5px;
+/background-color:#eee9e9;
+}
+#HeaderContainer h1{
+color:red;
+}
+#UnderHeaderContainer{
+/background-color:silver;
+margin-top:-1px;
+padding-left:1.5%; padding-right:1.5%; padding-bottom:0.01%; padding-top:0.01%;
+border-bottom-left-radius:35px; border-bottom-right-radius:35px;
+border:1px solid #4682b4;
+margin-left:1.3%; margin-right:1.3%;
+}
+#MainContainer{
+
+}
+#MainBarContainer{
+margin-left:11%;
+width:55%;
+border:1px solid #4682b4;
+/height:1000px;//////////////////////////////////////////////////////////////////////////////
+margin-top:-1px;
+background:rgba(173,216,230,0.8);
+}
+
+#RightBarContainer{
+}
+#RightBar{
+float:right;
+margin-right:11.85%;
+width:22%;
+border:1px solid #4682b4;
+background-color:#add8e6;
+opacity:0.95;
+}
+#RightBarContainer a{
+text-decoration:none;
+}
+
+.RightBarButton{
+text-align:center;
+color:#f5f5f5;
+background-color:#6495ed;
+padding-top:0.5%; padding-bottom:0.5%;
+margin:2px;
+}
+.RightBarButton:link{
+background-color:#6495ed;
+}
+.RightBarButton:hover{
+background-color:#4169e1;
+}
+.RightBarButton:active{
+background-color:blue;
+}
